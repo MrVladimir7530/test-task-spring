@@ -11,5 +11,5 @@ import java.util.Map;
 @Repository
 public interface TrancheRepository extends JpaRepository<Tranche, Long> {
 
-//    List<Tranche> findTranchesByContractContains(List<Contract> contracts);
+    List<Tranche> findTranchesByContractId(Long id);
 }

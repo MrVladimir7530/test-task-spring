@@ -29,7 +29,6 @@ public class TrancheServiceImpl implements TrancheService {
             contract.setTranches(tranches);
             contractRepository.save(contract);
         }
-//        List<Tranche> tranchesByContractIsContaining = trancheRepository.findTranchesByContractContains(all);
-//        System.out.println(tranchesByContractIsContaining);
+        System.out.println("ASdsd");
     }
 }
