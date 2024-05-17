@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: test-task-spring
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/DataTest1
+    username: AccountTest
+    password: 1234567890
+  jpa:
+    hibernate:
+      ddl-auto: update
