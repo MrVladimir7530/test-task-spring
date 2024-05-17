@@ -31,4 +31,9 @@ public class TrancheServiceImpl implements TrancheService {
         }
         System.out.println("ASdsd");
     }
+
+    @Override
+    public void any() {
+        
+    }
 }

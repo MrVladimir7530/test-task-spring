@@ -3,6 +3,7 @@ package com.example.testtaskspring.adapter.tranche;
 import com.example.testtaskspring.app.api.TrancheService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -21,5 +22,10 @@ public class TrancheController {
     @GetMapping("/get-long/{id}")
     public String getString(long id) {
         return "Hello "+ id;
+    }
+
+    @PostMapping
+    public String getPost() {
+        return "sdas";
     }
 }

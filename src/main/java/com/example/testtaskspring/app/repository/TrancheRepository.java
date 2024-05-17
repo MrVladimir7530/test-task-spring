@@ -10,6 +10,7 @@ import java.util.Map;
 
 @Repository
 public interface TrancheRepository extends JpaRepository<Tranche, Long> {
+    List<Tranche> findAllByContract(Contract contract);
 
     List<Tranche> findTranchesByContractId(Long id);
 }
