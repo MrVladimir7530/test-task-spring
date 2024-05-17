@@ -18,4 +18,8 @@ public class TrancheController {
     public String getString() {
         return "Hello";
     }
+    @GetMapping("/get-long/{id}")
+    public String getString(long id) {
+        return "Hello "+ id;
+    }
 }
