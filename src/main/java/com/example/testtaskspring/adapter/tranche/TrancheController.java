@@ -13,4 +13,9 @@ public class TrancheController {
     public void get() {
         trancheService.execute();
     }
+
+    @GetMapping("/get-string")
+    public String getString() {
+        return "Hello";
+    }
 }
