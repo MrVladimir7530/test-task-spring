@@ -26,6 +26,7 @@ public class TrancheServiceImpl implements TrancheService {
             tranche2.setName("Petr");
             List<Tranche> tranches = new ArrayList<>(List.of(tranche1, tranche2));
             System.out.println("Vova");
+            System.out.println("Ivan");
             contract.setTranches(tranches);
             contractRepository.save(contract);
         }
